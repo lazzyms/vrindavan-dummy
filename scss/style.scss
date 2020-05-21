@@ -475,10 +475,10 @@ img {
         position: relative;
         z-index: 1;
         @include flex(0 0 320px);
-        width: 320px;
-        max-width: 320px;
+        width: 300px;
+        max-width: 300px;
         background-color: #fff;
-        padding: 60px 75px;
+        padding: 60px 40px;
         @media #{$breakpoint-md} {
             @include flex(0 0 280px);
             width: 280px;
@@ -1081,6 +1081,7 @@ img {
     z-index: 1;
     width: 33.33333%;
     top: 0;
+    padding: 3px;
     @media #{$breakpoint-lg} {
         width: 50%;
     }

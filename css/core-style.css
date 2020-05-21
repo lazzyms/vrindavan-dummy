@@ -474,10 +474,10 @@ img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 320px;
   flex: 0 0 320px;
-  width: 320px;
-  max-width: 320px;
+  width: 300px;
+  max-width: 300px;
   background-color: #fff;
-  padding: 60px 75px;
+  padding: 60px 40px;
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
   .main-content-wrapper .header-area {
@@ -1163,6 +1163,7 @@ img {
   z-index: 1;
   width: 33.33333%;
   top: 0;
+  padding: 3px;
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
   .single-products-catagory {

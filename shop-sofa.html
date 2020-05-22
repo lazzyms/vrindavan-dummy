@@ -202,6 +202,14 @@
 
             $.get("./partial/categorybar.html", function (data) {
                 $('.shop_sidebar_area').prepend(data);
+                $('.catagories-menu ul li').each(() => {
+                    if($(this).hasClass('active')){
+                        if($(this).attr('id') != 'sofa') {
+                            $(this).removeClass('active')
+                        }
+                    } 
+                });
+                $('#sofa').addClass('active');
             });
 
             $.get("./partial/footer.html", function (data) {
